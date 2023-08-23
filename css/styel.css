@@ -1,0 +1,698 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+BODY{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.div1
+{
+    width: 100%;
+    height: 10.5vh;
+    background-color:rgb(255, 197, 16,0.8);
+    position: fixed;
+    top: 0 ;
+    overflow: auto;
+    z-index: 10;    
+}
+.logo   {
+    height: 80%;
+    margin: 5px 20px;
+}
+.UL1{
+    list-style: none;
+    float: right;
+    margin-right: 80px;
+    margin-top: 15px;
+}
+.UL1 LI{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+    font: normal bold 15px ARIAL;
+} 
+.UL1 li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.UL1 LI a:hover{
+    color: rgba(255, 0, 0, 0.8);
+}
+.SEC1CONTAINER{
+    width: 100%;
+    height: 100vh ;
+    margin-top: 80PX;
+    background-image: url(../images/sec1/homecov.webp) ;
+    background-size: cover;
+}
+.homeover{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0,0.09);
+    position: relative;
+
+}
+.homecont{
+    width: 65%;
+    height: 250PX;
+    background-color: rgb(0, 0, 0,0.4);
+    text-align: center;
+    position: absolute;
+    margin-top: 50VH;
+    margin-left: 50vw;
+   transform: translate(-50%,-50%);
+   padding: 50px;
+   border-radius: 8px;
+}
+.title1{
+    font: normal bold 50px ARIAL;
+    color: rgb(255, 255, 255);
+    outline: 1PX;
+    text-transform: capitalize;
+
+   }
+   .p1 {
+    color: white;
+    font:normal 22px arial ;
+    text-transform: capitalize;
+   }
+   .btn{
+    height:40px;
+    width: 180px;
+    font: normal 15px arial;
+    margin: 15PX 20PX;
+    cursor: pointer;
+   background-color: rgb(255, 197, 16,1);
+   border: 0;
+   border-radius:   5PX;
+   text-transform: capitalize;
+   }
+   .order{
+    font: normal bold 15px arial;
+    color: rgb(212, 248, 7);
+    background-color: rgb(202, 20, 20);
+   }
+   .btn:hover{
+    opacity: 0.8;
+   }
+   /* ////////////////////////////////////////sec 2 ///////////////////////////////////////// */
+   .sec2container{
+    width: 100%;
+    height:80vh;
+    padding-top: 20vh;
+   }
+   
+   .title02{
+    font: normal bold 40px arial;
+    text-align: center;
+    padding: 15 15;
+   }
+   .sec2underline{
+    width: 120px;
+    height: 5px;
+    background-color: rgb(255, 197, 16);
+    margin: auto;
+   }
+   .helpparent{
+    width: 80vw;
+    height: 75%;
+    margin: auto;
+    padding-top: 30px;
+   }
+   i{
+font-size: 50px;
+color: rgb(15, 15, 14) ;
+   }
+   .helpchild{
+    width: 30%;
+    height: 250px;
+    background-color: rgb(255, 197, 16);
+    margin: auto    ;
+    text-align: center;
+    float: right;
+    line-height: 50px;
+    padding-top: 20px;
+    position: relative;
+    z-index: 1;
+   }
+   .middiv{
+    margin: 0% 5%;
+   }
+   .a12{
+    color: rgb(233, 49, 49)  ;
+    text-decoration: none;
+    font: normal bold 22px arial;
+   }
+   .helpchild:after
+   {
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 0%;
+    top: 0;
+    left: 0;
+    background-color: rgb(24, 22, 22);
+       }
+   .helpchild:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    color: white;
+    transition: 1s;
+    z-index: -1;
+   }
+   .helpchild:hover{
+    color: aliceblue;
+   }
+   /* ///////////////////////////////////////////////////////////////////////////////////////// */
+   .usescontainer{
+    height: 100vh;
+    width: 100%;    
+    background-color: rgba(0, 0, 0, 0.123);
+    padding-top: 5vh;
+    margin: 20px 0px;
+   }
+   .usesparent{
+    height: 40%;
+    width: 80%;
+    /* background-color : aqua; */
+    margin: auto;
+    border-width: 8px;
+    border-color:  black;
+    border-radius: 10px;
+    padding-top: 15px;
+   } 
+   .p2{
+      margin-top: 30px;
+   }
+   .buldings{
+    width: 30%;
+    height: 280px;
+    background-image: url(../images/sec3/buldings.jpg);
+    background-size: cover;
+    float: left;
+    position: relative;
+    color: rgb(0, 0, 0,0);   
+   }
+   .automotive{
+    margin: 0% 5%;
+    background-image: url(../images/sec3/automotive.jpg);
+   }
+   .tarnsportation{
+    background-image: url(../images/sec3/transportation.jpg);
+    background-size: cover;
+   }
+   .equpment{
+    background-image: url(../images/sec3/equpments.jpg);
+    background-size: cover;
+    margin: 0% 5%;
+   }  .renwable{
+    background-image: url(../images/sec3/renwableenergy.jpg);
+    background-size: cover;
+   }
+   .marine{
+    background-image: url(../images/sec3/marine.jpg);
+    background-size: cover;
+   }
+   /* .buldings:hover{
+    color: black; */
+    .usesoverlay{
+        width: 100%;
+        height: 100%;
+        /* background-color:rgb(255, 197, 16,0.4);  ; */
+        position: absolute;
+        color: black;
+        opacity: 0;
+        text-align: center;
+        font-size: 20px;
+        line-height: 30px   ;
+        z-index: 1;
+
+    }
+    .usesoverlay:hover{
+        opacity: 1;
+        transition: 1s;
+    }
+  .usestitle{
+    font:normal bold 30px arial;
+    color: rgb(0, 0, 0);
+    /* background-color: rgba(248, 40, 40, 0.5); */
+    padding-top: 15%;
+  }
+  .usesp{
+    font:normal bold 18px arial;
+    color: rgb(0, 0, 0);
+    padding: 10%  15%;
+  }
+  .usesoverlay a i{
+    color: rgba(255, 0, 0, 0.774);
+  }
+   .usesoverlay:after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0%;
+    top: 0;
+    left: 0;
+    background-color:rgb(255, 197, 16,0.8); 
+    opacity: 0;
+   }
+      .usesoverlay:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    transition:1s;
+    text-align: center;
+    z-index: 0;
+    color: black    ;
+    z-index: -2;
+   }
+   /*///////////////////////////sec 4 CONC-ADMIX //////////////////  */
+   .sec4news{
+    width: 100%;
+    height: 100vh;
+    margin-top: 80px;
+    padding: 70px 0px;
+   }
+   .title04{
+    padding: 0px 0px ;
+   }
+   .newsparent1{
+    height: 40%;
+    margin-top: 30px;
+    padding: 10px 0px;
+   }
+   .newschild{
+    height: 100%;
+   }
+   /* ///////////////////////////// SEC 5 ASK ONLINE */
+ .SEC5CONTAINER{
+    height: 100VH;
+    width: 100%;
+    position: relative;
+ }
+ .SEC5PARENT{
+    width: 80%;
+    height: 90%;
+    position: absolute;
+    margin: auto;
+    top: 10%;
+    left: 10%;
+ }
+  .SEC5CONT{
+    height: 90%;
+    width: 50%;
+    position: absolute;
+    text-align: center;
+    top: 5%;
+    left: 0;
+    line-height: 50px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+ }
+ .p05{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+ }
+ .SEC5IMG{
+    height: 90%;
+    width: 50%;
+    position: absolute;
+    top: 5%;
+    right: 0;
+
+ }
+ .sp05{
+    font: normal bold 25px  arial;
+ }
+ .title005{
+    margin: 30PX 30PX;
+ }
+ .ul05{
+    padding: 30PX 0PX;
+    left: 0;
+    text-align: left;
+ }
+ .ul05  li{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    list-style: none;
+    line-height: 50px;
+    word-spacing: 2px;
+ }
+ .ul05 li i{
+    font-size: 20px;
+    color: rgb(255, 191, 0);
+    word-spacing: 20px;
+ }
+.SEC5ASK{
+    height: 100%;
+    width: 100%;
+    padding: 20PX 20PX;
+}
+.sec6{
+    height: 50vh;
+    width: 100%;
+    background-image:url(../images/sec6/wall.webp   );
+    background-attachment: fixed;
+    }
+    .sec6overlay{
+        height: 100%;
+        width: 100%;
+        background-color:rgba(0, 0, 0, 0.541) ;
+    }
+    .sec6parent{
+        width: 90%;
+        height: 100%;
+        margin: auto;
+        position: relative;
+    }
+    .sec6item{
+        width: 20%;
+        height: 80%;
+        margin-top: 3.1% ;
+        float: left;
+        color: rgb(255, 191, 0);
+        font-size: 18px;
+        text-align: center;
+    }
+    .sec6 .item2{
+        margin: 3.10% 6.66%;
+    }
+    .sec6 .item3{
+        margin-right: 6.66%;
+    }
+
+.hig{
+    height: 5000px;
+}
+.sec6item i{
+    font-size: 110px;
+    color: rgb(255, 191, 0);
+    padding: 25px 15px;
+}
+ .sec6item  span{
+    color: azure;
+    font-size: 22px ;
+ }
+ .sec6icons{
+    margin-bottom: 25px;
+ }
+ /* ///////////////////////////sec 7 //////////////////// */
+ .sec7container{
+   height: 100vh;
+    padding-top: 20vh;
+ }
+ .sec7prodchild{
+    height: 550px;
+    background-color: white;
+ }
+ .sec7span{
+    line-height: 15px;
+    background-color: rgb(255, green, blue);
+ }
+ .sec7sikaprod{
+    height: 60%;
+    width: 100%;
+ }
+ .sec7priceparent{
+    width: 100%;
+    height: 20%;
+    position: relative;
+ }
+ .sec7price{
+    height: 95px;
+    width: 95px;
+    border: 5px black solid;
+    border-radius: 47.5px;
+    position: absolute;
+    left: 20%;
+    top: 15%;
+ }
+ .sec7order{
+    width: 40%;
+    height: 70px;
+    font: normal bold 22px arial;
+    color: rgb(255, 191, 0);
+    background-color: rgb(245, 7, 19);
+    border-radius: 15px;
+    position: absolute;
+    outline: 0px;
+    right: 3%;
+    top: 30%;
+ }
+ .sec7itemprice{
+    line-height: 30px;
+    margin-top: 10px;
+ }
+ .sec7order:hover{
+    color: black;
+    background-color: rgb(255, 191, 0,0.8);
+    transition: 1s;
+    cursor: pointer;
+ }
+ .sec7prodchild:after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0%;
+    top: 0;
+    left: 0;
+    color: red;
+    background-color: rgb(255, 191,0);
+    opacity: 0;
+ }
+ .sec7prodchild:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transition: 0.5s;
+ }
+ .sec7prodchild:hover{
+    color: red;
+ }
+ /* //////////////////////////// sec8 //////////////////////// */
+ .sec8{
+   margin: auto;
+   margin-top: 20vh;
+   background-image: url(../images/sec8/covver.webp);
+ }
+ .sec8parent{
+   height: 100%;
+   width: 80%;
+   text-align: center;
+   margin: auto;
+   position: relative;
+ }
+ .sec8child{
+   height: 100%;
+   width: 45%;
+   position: absolute;
+   bottom: 0;
+   right: 0;
+ }
+ .sec8child2{
+   height: 100%;
+   width: 45%;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+ }
+.sec8img{
+   height: 180px;
+   width: 180px;
+   border-radius: 90px;
+   background-image: url(../images/sec8/yasinsika.webp);
+   background-size: cover;
+   margin: 20px 20px;
+   float: left;
+}
+.sec8img2{
+   background-image: url(../images/sec8/Baigalmaa_Naidan.jpg);
+}
+.sec8title{
+   margin: 60px 15px 80px 0px;
+   font: normal bold 1.1rem arial;
+   color: rgb(255, 255, 255);
+}
+.yassininfo{
+   color: rgb(255, 191, 0);
+   font:  normal bold 1.2rem arial;
+}
+/* //////////////////////////////sec9 ////////////////////////// */
+.sec9child{
+   height: 100%;
+   width: 30%;
+   padding: 20px 15px;
+   float: left;
+   position: relative;
+   text-align: center;
+   background-color: rgb(255, 191, 0);
+}
+.sec9mid{
+   margin: 0 5%;
+}
+.sec9img{
+   height: 70%;
+   width: 100%;
+   position: relative;
+}
+.sec9overlay{
+   padding: 20px 15px;
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   background-color: rgba(255, 191, 0, 0.4);
+   top: 0;
+   left: 0;
+   opacity: 0;
+   z-index: 3;
+}
+.lca{
+   height: 100%;
+   width: 100%;
+}
+.cont{
+   display: block;
+   margin-left: 90%;
+}
+.sec9overlay:hover{
+ opacity: 1;
+}
+.sec9info{
+   margin-top: 50px;
+   line-height: 40px;
+}
+.sec9child:after{
+   position: absolute;
+   content: "";
+   width: 25%;
+   height: 0%;
+   top: 0;
+   left: 0;
+   background-color: rgb(0, 0, 0,0.4);
+   opacity: 0;
+}
+.sec9child:hover::after{
+   width: 100%;
+   height: 50%;
+   opacity: 1;
+   transition: 1s;
+}
+.sec9child:before{
+   position: absolute;
+   content: "";
+   width: 25%;
+   height: 0%;
+   bottom: 0;
+   right: 0;
+   background-color: rgb(0, 0, 0,0.4);
+   opacity: 0;
+}
+.sec9child:hover::before{
+   width: 100%;
+   height: 50%;
+   opacity: 1;
+   transition: 1s;
+   z-index: 1;
+}
+/* ///////////////////// sec10 ////////////////// */
+.sec10container{
+   height: 120vh;
+   background-color: rgba(227, 235, 232, 0.445);
+   padding: 50px 50px;
+}
+.newsparent{
+   width: 80%;
+   height: 75%;
+   margin: auto;
+   margin-top: 30px;
+}
+.sec10newschild{
+   height: 100%;
+   width: 30%;
+   float: left;
+   padding: 20px 20px;
+   text-align: center;
+   position: relative;
+}
+.sec10newschild::after{
+   position: absolute;
+   content: "";
+   height: 50%;
+   width: 0%;
+   bottom: 0;
+   right: 0;
+   background-color: rgb(255, 191, 0,0.8);
+   opacity: 0;
+}
+   .sec10newschild:hover::after{
+      width: 100%;
+      height: 100%;
+      opacity: 1;
+      transition: 1s;
+      z-index: -1;
+
+   }
+.sec10mid{
+   margin: 0% 5%;
+}
+.sec10img{
+   width: 100%;
+   height: 50%;
+   margin-bottom: 20px;
+   }
+.sec10newschild i{
+   display: inline;
+   font-size: 11px;
+   margin-top: 10px;
+   color: rgb(0, 0, 0);
+}
+.sec10title{
+   padding:20px 0px;
+   font-size: 25px;
+   color: rgb(187, 7, 7);
+}
+.sec10readmore{
+   text-decoration: none;
+   font: normal bold 15px arial ;
+   color: blue;
+}
+
+/* ////////////////////////// footer //////////////////// */
+.footer{
+   width: 100%;
+   height: 30vh;
+   background-color: gray;
+   position: relative;
+}
+.sikalogo{
+   position: absolute;
+   bottom: 0;
+   right: 0;
+}
+.footercont{
+   height: 80%;
+   width: 70%;
+   /* background-color: aqua; */
+   text-align: center;
+   font-size: 1.5rem;
+   line-height: 40px;
+   color: aliceblue;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform:translate(-50%,-50%);
+}
+.footercont a i{
+   color: rgb(250, 252, 255);
+    margin: 10px 10px;
+}
+
